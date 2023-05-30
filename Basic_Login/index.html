@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="login_header">
+            <h1>Login</h1> 
+            <img src="assets/imgs/Logo Login.png" alt="Logo Login">
+            </div>
+
+            <div id="social_media">
+                <a href="#"><img src="assets/imgs/Logo Google.png" alt="Logo Google"></a>
+                <a href="#"><img src="assets/imgs/Logo Facebook.png" alt="Logo Facebook"></a>
+                <a href="#"><img src="assets/imgs/Logo Github.png" alt="Logo Github"></a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="username">
+                    Username
+                    <div class="input-field">
+                    <input type="text" id="username" required>
+                    </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                    Password
+                    <div class="input-field">
+                        <input type="password" id="password" required>
+                    </div>
+                    </label>
+
+                    <div id="forgot_password">
+                        <a href="#">Forgot password?</a>
+                    </div>        
+                </div>
+            </div>
+
+            <button type="submit" id="login_button">Login</button>
+
+            <div id="not_member">
+                Not a member? <a href="https://www.youtube.com/watch?v=qttdZg0O940" target="_blank">Signup</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
